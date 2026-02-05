@@ -1,0 +1,52 @@
+{
+  "prompt": "je veux un humain",
+  "shapes": [
+    {
+      "shape": "circle",
+      "color": "#ffdab9",
+      "size": 70.0,
+      "x": 400.0,
+      "y": 200.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#4682b4",
+      "size": 100.0,
+      "x": 400.0,
+      "y": 295.0,
+      "size2": 150.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#4682b4",
+      "size": 30.0,
+      "x": 330.0,
+      "y": 295.0,
+      "size2": 100.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#4682b4",
+      "size": 30.0,
+      "x": 470.0,
+      "y": 295.0,
+      "size2": 100.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#696969",
+      "size": 40.0,
+      "x": 375.0,
+      "y": 440.0,
+      "size2": 130.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#696969",
+      "size": 40.0,
+      "x": 425.0,
+      "y": 440.0,
+      "size2": 130.0
+    }
+  ]
+}

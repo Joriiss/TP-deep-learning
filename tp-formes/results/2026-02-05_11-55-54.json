@@ -1,0 +1,54 @@
+{
+  "prompt": "make a series of 7 squares with rainbow colors",
+  "shapes": [
+    {
+      "shape": "square",
+      "color": "#ff0000",
+      "size": 100.0,
+      "x": 100.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#ffa500",
+      "size": 100.0,
+      "x": 200.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#ffff00",
+      "size": 100.0,
+      "x": 300.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#00ff00",
+      "size": 100.0,
+      "x": 400.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#0000ff",
+      "size": 100.0,
+      "x": 500.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#4b0082",
+      "size": 100.0,
+      "x": 600.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#ee82ee",
+      "size": 100.0,
+      "x": 700.0,
+      "y": 300.0
+    }
+  ]
+}

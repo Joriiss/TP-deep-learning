@@ -1,0 +1,40 @@
+{
+  "prompt": "deux cercles rouges en haut à droite, un triangle vert au centre, un cercle en bas à gaucheet un grand triangle au milieu",
+  "shapes": [
+    {
+      "shape": "circle",
+      "color": "#ff0000",
+      "size": 100.0,
+      "x": 630.0,
+      "y": 140.0
+    },
+    {
+      "shape": "circle",
+      "color": "#ff0000",
+      "size": 100.0,
+      "x": 670.0,
+      "y": 160.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#00ff00",
+      "size": 100.0,
+      "x": 400.0,
+      "y": 300.0
+    },
+    {
+      "shape": "circle",
+      "color": "#0000ff",
+      "size": 100.0,
+      "x": 150.0,
+      "y": 450.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#0000ff",
+      "size": 150.0,
+      "x": 400.0,
+      "y": 350.0
+    }
+  ]
+}

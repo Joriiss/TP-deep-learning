@@ -1,0 +1,19 @@
+{
+  "prompt": "put a red dot on top of a blue circle",
+  "shapes": [
+    {
+      "shape": "circle",
+      "color": "#0000ff",
+      "size": 100.0,
+      "x": 400.0,
+      "y": 300.0
+    },
+    {
+      "shape": "circle",
+      "color": "#ff0000",
+      "size": 30.0,
+      "x": 400.0,
+      "y": 300.0
+    }
+  ]
+}
