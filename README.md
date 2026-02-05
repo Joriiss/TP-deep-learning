@@ -2,7 +2,7 @@
 
 Travaux pratiques Python — génération de formes et traduction en langage naturel.
 
-## tp-formes
+## TP1 Génération de formes géométriques
 
 Deux scripts pour créer des images avec des formes (triangles, carrés, cercles, rectangles, étoiles) :
 
@@ -24,28 +24,14 @@ pip install -r requirements.txt
 
 La clé API Gemini doit être définie dans le fichier `.env` à la racine du projet (`GEMINI_API_KEY=...`).
 
-## tp2-sentiments
+## TP2 - Analyse de sentiment : Positif ou négatif
 
 Analyse de **sentiment** sur des avis : Vader (NLTK), modèle transformer (Hugging Face) et Naive Bayes personnalisé (TF-IDF + MultinomialNB) entraîné sur des textes positifs/négatifs.
 
 - **model_sentiment.py** — Entraîne le pipeline TF-IDF + Naive Bayes sur `TrainingDataPositive.txt` et `TrainingDataNegative.txt`, sauvegarde `modele_custom_nb.joblib`.
 - **sentiment.py** — Lit `TestReviews.csv`, applique les trois méthodes (Vader, transformer, Naive Bayes) et écrit les résultats dans `sentiment.csv`.
 
-Données : `TrainingDataPositive.txt` / `TrainingDataNegative.txt` (un avis par ligne), `TestReviews.csv` (colonne `review`). Résultat : `sentiment.csv` avec les colonnes de sentiment.
-
-### Installation
-
-```bash
-cd tp2-sentiments
-pip install pandas nltk scikit-learn transformers joblib
-```
-
-Au premier run de `sentiment.py`, télécharger le lexique Vader : `python -c "import nltk; nltk.download('vader_lexicon')"`
-
-### Lancer
-
-1. Entraîner le modèle personnalisé (une fois) : `python model_sentiment.py`
-2. Lancer l’analyse : `python sentiment.py`
+Voir le `README.md` dans le dossier pour l’installation et les commandes.
 
 ## tp-classifications
 
