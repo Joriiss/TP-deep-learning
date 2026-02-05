@@ -26,14 +26,29 @@ La clé API Gemini doit être définie dans le fichier `.env` à la racine du pr
 
 ## TP2 - Analyse de sentiment : Positif ou négatif
 
-Analyse de **sentiment** sur des avis : Vader (NLTK), modèle transformer (Hugging Face) et Naive Bayes personnalisé (TF-IDF + MultinomialNB) entraîné sur des textes positifs/négatifs.
+Analyse de **sentiment** sur des avis : trois méthodes sont utilisées — **Vader** (NLTK), un **modèle transformer** (Hugging Face) et un **Naive Bayes personnalisé** (TF-IDF + MultinomialNB) entraîné sur des textes positifs et négatifs.
 
-- **model_sentiment.py** — Entraîne le pipeline TF-IDF + Naive Bayes sur `TrainingDataPositive.txt` et `TrainingDataNegative.txt`, sauvegarde `modele_custom_nb.joblib`.
-- **sentiment.py** — Lit `TestReviews.csv`, applique les trois méthodes (Vader, transformer, Naive Bayes) et écrit les résultats dans `sentiment.csv`.
+- **model_sentiment.py** — Entraîne le pipeline TF-IDF + Naive Bayes sur les fichiers d’entraînement, sauvegarde le modèle dans `modele_custom_nb.joblib`. À lancer une fois avant d’utiliser le classifieur personnalisé dans `sentiment.py`.
+- **sentiment.py** — Charge `TestReviews.csv`, applique les trois classifieurs (Vader, transformer, Naive Bayes) à chaque avis et enregistre les résultats dans `sentiment.csv` (colonnes `sentiment`, `sentiment_transformer`, `sentiment_nb_custom`).
 
-Voir le `README.md` dans le dossier pour l’installation et les commandes.
+**Données :** `TrainingDataPositive.txt` et `TrainingDataNegative.txt` (un avis par ligne) pour l’entraînement du Naive Bayes ; `TestReviews.csv` (colonne `review`) pour les prédictions. Résultat : `sentiment.csv`.
 
-## tp-classifications
+### Installation
+
+```bash
+cd tp2-sentiments
+pip install pandas nltk scikit-learn transformers joblib
+```
+
+Au premier run, télécharger le lexique Vader :  
+`python -c "import nltk; nltk.download('vader_lexicon')"`
+
+### Lancer
+
+1. Entraîner le modèle personnalisé (une fois) : `python model_sentiment.py`
+2. Lancer l’analyse sur les avis de test : `python sentiment.py`
+
+## TP4 - Classification d’images (clustering)
 
 Apprentissage **non supervisé** sur les images du dossier `data/` (sous-dossiers : airplanes, Motorbikes, schooner). Les images proviennent du jeu de données [Caltech101 - Airplanes, Motorbikes, Schooners](https://www.kaggle.com/datasets/maricinnamon/caltech101-airplanes-motorbikes-schooners) (Kaggle). Le modèle ne reçoit pas les étiquettes : il apprend uniquement à former des clusters.
 
