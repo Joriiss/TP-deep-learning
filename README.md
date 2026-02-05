@@ -24,6 +24,15 @@ pip install -r requirements.txt
 
 La clé API Gemini doit être définie dans le fichier `.env` à la racine du projet (`GEMINI_API_KEY=...`).
 
+## tp2-sentiments
+
+Analyse de **sentiment** sur des avis : Vader (NLTK), modèle transformer (Hugging Face) et Naive Bayes personnalisé (TF-IDF + MultinomialNB) entraîné sur des textes positifs/négatifs.
+
+- **model_sentiment.py** — Entraîne le pipeline TF-IDF + Naive Bayes et sauvegarde `modele_custom_nb.joblib`.
+- **sentiment.py** — Lit `TestReviews.csv`, applique les trois méthodes et écrit les résultats dans `sentiment.csv`.
+
+Voir le `README.md` dans le dossier pour l’installation et les commandes.
+
 ## tp-classifications
 
 Apprentissage **non supervisé** sur les images du dossier `data/` (sous-dossiers : airplanes, Motorbikes, schooner). Les images proviennent du jeu de données [Caltech101 - Airplanes, Motorbikes, Schooners](https://www.kaggle.com/datasets/maricinnamon/caltech101-airplanes-motorbikes-schooners) (Kaggle). Le modèle ne reçoit pas les étiquettes : il apprend uniquement à former des clusters.
