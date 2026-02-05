@@ -1,0 +1,101 @@
+{
+  "prompt": "make the Greece flag",
+  "shapes": [
+    {
+      "shape": "rectangle",
+      "color": "#0d5eaf",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 140.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ffffff",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 180.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#0d5eaf",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 220.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ffffff",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 260.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#0d5eaf",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 300.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ffffff",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 340.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#0d5eaf",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 380.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ffffff",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 420.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#0d5eaf",
+      "size": 540.0,
+      "x": 400.0,
+      "y": 460.0,
+      "size2": 40.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#0d5eaf",
+      "size": 200.0,
+      "x": 230.0,
+      "y": 220.0,
+      "size2": 200.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ffffff",
+      "size": 200.0,
+      "x": 230.0,
+      "y": 220.0,
+      "size2": 22.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ffffff",
+      "size": 22.0,
+      "x": 230.0,
+      "y": 220.0,
+      "size2": 200.0
+    }
+  ]
+}

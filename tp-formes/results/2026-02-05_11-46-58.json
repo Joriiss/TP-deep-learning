@@ -1,0 +1,120 @@
+{
+  "prompt": "recreate starry nights by van gogh",
+  "shapes": [
+    {
+      "shape": "circle",
+      "color": "#ffff00",
+      "size": 100.0,
+      "x": 600.0,
+      "y": 100.0
+    },
+    {
+      "shape": "star",
+      "color": "#ffffff",
+      "size": 60.0,
+      "x": 450.0,
+      "y": 80.0
+    },
+    {
+      "shape": "star",
+      "color": "#ffff00",
+      "size": 70.0,
+      "x": 250.0,
+      "y": 120.0
+    },
+    {
+      "shape": "star",
+      "color": "#ffffff",
+      "size": 50.0,
+      "x": 350.0,
+      "y": 180.0
+    },
+    {
+      "shape": "circle",
+      "color": "#ffff00",
+      "size": 40.0,
+      "x": 500.0,
+      "y": 200.0
+    },
+    {
+      "shape": "star",
+      "color": "#ffffff",
+      "size": 30.0,
+      "x": 180.0,
+      "y": 250.0
+    },
+    {
+      "shape": "circle",
+      "color": "#ffff00",
+      "size": 30.0,
+      "x": 700.0,
+      "y": 250.0
+    },
+    {
+      "shape": "star",
+      "color": "#ffffff",
+      "size": 25.0,
+      "x": 100.0,
+      "y": 100.0
+    },
+    {
+      "shape": "star",
+      "color": "#ffff00",
+      "size": 25.0,
+      "x": 750.0,
+      "y": 150.0
+    },
+    {
+      "shape": "star",
+      "color": "#ffffff",
+      "size": 25.0,
+      "x": 400.0,
+      "y": 50.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#0a2b3b",
+      "size": 70.0,
+      "x": 150.0,
+      "y": 350.0,
+      "size2": 400.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#5b6d7a",
+      "size": 80.0,
+      "x": 300.0,
+      "y": 520.0,
+      "size2": 60.0
+    },
+    {
+      "shape": "square",
+      "color": "#5b6d7a",
+      "size": 70.0,
+      "x": 400.0,
+      "y": 530.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#5b6d7a",
+      "size": 60.0,
+      "x": 500.0,
+      "y": 510.0,
+      "size2": 90.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#5b6d7a",
+      "size": 50.0,
+      "x": 500.0,
+      "y": 460.0
+    },
+    {
+      "shape": "square",
+      "color": "#5b6d7a",
+      "size": 60.0,
+      "x": 600.0,
+      "y": 540.0
+    }
+  ]
+}

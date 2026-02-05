@@ -1,0 +1,75 @@
+{
+  "prompt": "i want a lot of blue square on the left side, with different colors and a lot of red triangles on the right side. keep the middle blank",
+  "shapes": [
+    {
+      "shape": "square",
+      "color": "#3498db",
+      "size": 100.0,
+      "x": 150.0,
+      "y": 150.0
+    },
+    {
+      "shape": "square",
+      "color": "#2ecc71",
+      "size": 50.0,
+      "x": 200.0,
+      "y": 250.0
+    },
+    {
+      "shape": "square",
+      "color": "#f1c40f",
+      "size": 150.0,
+      "x": 100.0,
+      "y": 350.0
+    },
+    {
+      "shape": "square",
+      "color": "#3498db",
+      "size": 100.0,
+      "x": 250.0,
+      "y": 450.0
+    },
+    {
+      "shape": "square",
+      "color": "#2c3e50",
+      "size": 75.0,
+      "x": 175.0,
+      "y": 400.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#e74c3c",
+      "size": 100.0,
+      "x": 650.0,
+      "y": 150.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#e74c3c",
+      "size": 50.0,
+      "x": 600.0,
+      "y": 250.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#e74c3c",
+      "size": 150.0,
+      "x": 700.0,
+      "y": 350.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#e74c3c",
+      "size": 100.0,
+      "x": 550.0,
+      "y": 450.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#e74c3c",
+      "size": 75.0,
+      "x": 680.0,
+      "y": 200.0
+    }
+  ]
+}

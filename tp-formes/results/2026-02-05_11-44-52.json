@@ -1,0 +1,117 @@
+{
+  "prompt": "i want a lot of blue square on the left side, with different colors and a lot of red triangles on the right side. keep the middle blank",
+  "shapes": [
+    {
+      "shape": "square",
+      "color": "#0000ff",
+      "size": 100.0,
+      "x": 100.0,
+      "y": 100.0
+    },
+    {
+      "shape": "square",
+      "color": "#add8e6",
+      "size": 50.0,
+      "x": 250.0,
+      "y": 120.0
+    },
+    {
+      "shape": "square",
+      "color": "#00008b",
+      "size": 150.0,
+      "x": 150.0,
+      "y": 250.0
+    },
+    {
+      "shape": "square",
+      "color": "#008000",
+      "size": 100.0,
+      "x": 280.0,
+      "y": 280.0
+    },
+    {
+      "shape": "square",
+      "color": "#ffff00",
+      "size": 50.0,
+      "x": 120.0,
+      "y": 400.0
+    },
+    {
+      "shape": "square",
+      "color": "#800080",
+      "size": 150.0,
+      "x": 220.0,
+      "y": 450.0
+    },
+    {
+      "shape": "square",
+      "color": "#00ffff",
+      "size": 50.0,
+      "x": 180.0,
+      "y": 180.0
+    },
+    {
+      "shape": "square",
+      "color": "#4b0082",
+      "size": 100.0,
+      "x": 100.0,
+      "y": 500.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#ff0000",
+      "size": 100.0,
+      "x": 700.0,
+      "y": 100.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#8b0000",
+      "size": 50.0,
+      "x": 550.0,
+      "y": 120.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#dc143c",
+      "size": 150.0,
+      "x": 650.0,
+      "y": 250.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#ff0000",
+      "size": 100.0,
+      "x": 520.0,
+      "y": 280.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#8b0000",
+      "size": 50.0,
+      "x": 680.0,
+      "y": 400.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#dc143c",
+      "size": 150.0,
+      "x": 580.0,
+      "y": 450.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#ff0000",
+      "size": 50.0,
+      "x": 720.0,
+      "y": 180.0
+    },
+    {
+      "shape": "triangle",
+      "color": "#8b0000",
+      "size": 100.0,
+      "x": 600.0,
+      "y": 500.0
+    }
+  ]
+}

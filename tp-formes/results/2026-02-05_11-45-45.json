@@ -1,0 +1,29 @@
+{
+  "prompt": "recreate the french flag",
+  "shapes": [
+    {
+      "shape": "rectangle",
+      "color": "#002395",
+      "size": 200.0,
+      "x": 200.0,
+      "y": 300.0,
+      "size2": 400.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ffffff",
+      "size": 200.0,
+      "x": 400.0,
+      "y": 300.0,
+      "size2": 400.0
+    },
+    {
+      "shape": "rectangle",
+      "color": "#ed2939",
+      "size": 200.0,
+      "x": 600.0,
+      "y": 300.0,
+      "size2": 400.0
+    }
+  ]
+}

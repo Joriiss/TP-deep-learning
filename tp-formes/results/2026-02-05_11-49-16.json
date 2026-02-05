@@ -1,0 +1,13 @@
+{
+  "prompt": "make a banana",
+  "shapes": [
+    {
+      "shape": "rectangle",
+      "color": "#ffff00",
+      "size": 40.0,
+      "x": 400.0,
+      "y": 300.0,
+      "size2": 180.0
+    }
+  ]
+}

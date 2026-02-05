@@ -1,0 +1,68 @@
+{
+  "prompt": "recreate the french flag in full size",
+  "shapes": [
+    {
+      "shape": "square",
+      "color": "#3498db",
+      "size": 150.0,
+      "x": 250.0,
+      "y": 150.0
+    },
+    {
+      "shape": "square",
+      "color": "#3498db",
+      "size": 150.0,
+      "x": 250.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#3498db",
+      "size": 150.0,
+      "x": 250.0,
+      "y": 450.0
+    },
+    {
+      "shape": "square",
+      "color": "#ffffff",
+      "size": 150.0,
+      "x": 400.0,
+      "y": 150.0
+    },
+    {
+      "shape": "square",
+      "color": "#ffffff",
+      "size": 150.0,
+      "x": 400.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#ffffff",
+      "size": 150.0,
+      "x": 400.0,
+      "y": 450.0
+    },
+    {
+      "shape": "square",
+      "color": "#e74c3c",
+      "size": 150.0,
+      "x": 550.0,
+      "y": 150.0
+    },
+    {
+      "shape": "square",
+      "color": "#e74c3c",
+      "size": 150.0,
+      "x": 550.0,
+      "y": 300.0
+    },
+    {
+      "shape": "square",
+      "color": "#e74c3c",
+      "size": 150.0,
+      "x": 550.0,
+      "y": 450.0
+    }
+  ]
+}

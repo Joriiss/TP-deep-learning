@@ -1,0 +1,20 @@
+{
+  "prompt": "add a rectangle that cover all the canvas in #006A4E and a medium 300px size circle in the middle #F42A41",
+  "shapes": [
+    {
+      "shape": "rectangle",
+      "color": "#006a4e",
+      "size": 800.0,
+      "x": 400.0,
+      "y": 300.0,
+      "size2": 600.0
+    },
+    {
+      "shape": "circle",
+      "color": "#f42a41",
+      "size": 300.0,
+      "x": 400.0,
+      "y": 300.0
+    }
+  ]
+}
