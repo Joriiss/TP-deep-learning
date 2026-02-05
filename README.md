@@ -48,6 +48,29 @@ Au premier run, télécharger le lexique Vader :
 1. Entraîner le modèle personnalisé (une fois) : `python model_sentiment.py`
 2. Lancer l’analyse sur les avis de test : `python sentiment.py`
 
+## TP3 - Débruitage d’images avec auto-encodeur (U-Net)
+
+Débruitage d’images par un **auto-encodeur de type U-Net** : les images (niveaux de gris, 128×128) sont bruitées puis le réseau apprend à reconstruire l’image propre à partir de l’image bruitée. En fin d’exécution, une figure compare pour quelques exemples : image originale, image bruitée, image débruitée par le modèle.
+
+- **tp_bruit.py** — Charge les images du dossier `./images` (png, jpg), les redimensionne en 128×128 en niveaux de gris, ajoute un bruit gaussien (`NOISE_FACTOR = 0.3`), construit un U-Net (encodeur–décodeur avec connexions de skip), entraîne sur « bruité → propre » (MSE, Adam, 100 époques), puis affiche une grille originale / bruit / débruité.
+
+**Prérequis :** placer des images dans le dossier `images/` à la racine de `tp3-bruit`. Dépendances : TensorFlow (Keras), OpenCV, scikit-learn, matplotlib, numpy.
+
+### Installation
+
+```bash
+cd tp3-bruit
+pip install tensorflow opencv-python scikit-learn matplotlib numpy
+```
+
+### Lancer
+
+```bash
+python tp_bruit.py
+```
+
+(Vérifier que le dossier `images/` existe et contient des images.)
+
 ## TP4 - Classification d’images (clustering)
 
 Apprentissage **non supervisé** sur les images du dossier `data/` (sous-dossiers : airplanes, Motorbikes, schooner). Les images proviennent du jeu de données [Caltech101 - Airplanes, Motorbikes, Schooners](https://www.kaggle.com/datasets/maricinnamon/caltech101-airplanes-motorbikes-schooners) (Kaggle). Le modèle ne reçoit pas les étiquettes : il apprend uniquement à former des clusters.
